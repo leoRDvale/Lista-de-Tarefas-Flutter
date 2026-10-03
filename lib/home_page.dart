@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
             child: DecoratedBox(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage('https://i.imgur.com/55MfWLK.jpeg'),
+                  image: AssetImage('images/background.jpeg'),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
                     Colors.black.withOpacity(0.3),
